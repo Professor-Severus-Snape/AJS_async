@@ -1,0 +1,10 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+}
+
+.hint {
+  padding: 50px;
+  text-align: center;
+  font-size: 50px;
+}
