@@ -6,4 +6,7 @@ module.exports = {
     jest: true, // для корректной работы ESLint с Jest
   },
   extends: 'airbnb-base', // Airbnb JavaScript Style
+  rules: {
+    'no-console': 'off', // избавляет от warning 'no-console'
+  },
 };
