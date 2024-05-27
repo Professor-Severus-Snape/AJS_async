@@ -9,7 +9,7 @@ export default class GameSavingLoader {
     return read()
       .then(json)
       .then(JSON.parse)
-      .then((obj) => new GameSaving(obj.id, obj.created, obj.userInfo))
+      .then((obj) => new GameSaving(obj))
       .catch((error) => {
         console.warn('PromiseLoader (проброс ошибки в app.js)');
         throw new Error(error);
