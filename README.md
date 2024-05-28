@@ -1,5 +1,7 @@
 # Домашнее задание к лекции «Promises, async/await»
 
+[![Build status](https://ci.appveyor.com/api/projects/status/tec62wpnumwpc579?svg=true)](https://ci.appveyor.com/project/Professor-Severus-Snape/ajs-async)
+
 ## Важно:
 1. Код должен проходить ESLint без ошибок.
 2. Unit-тесты должны обеспечивать 100% покрытие тестируемых функций и классов по строкам.
